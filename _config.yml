@@ -10,9 +10,3 @@ url: "https://patsier.com" # the base hostname & protocol for your site - used f
 github_username: pjsier
 
 markdown: kramdown
-
-backend:
-  name: github
-  repo: pjsier/jekyll-netlify-cms
-  branch: master
-  base_url: https://1n1f9h9ame.execute-api.us-east-1.amazonaws.com/dev
