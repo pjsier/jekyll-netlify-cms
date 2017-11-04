@@ -2,7 +2,8 @@ backend:
   name: github
   repo: pjsier/jekyll-netlify-cms
   branch: master
-  base_url: https://1n1f9h9ame.execute-api.us-east-1.amazonaws.com/dev
+  site_id: patsier.com
+  base_url: https://netlify.patsier.com
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
