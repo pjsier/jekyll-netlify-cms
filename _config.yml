@@ -1,14 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+title: Testing Jekyll Netlify
+email: pjsier@gmail.com
+description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site - used for feed.xml
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/jekyll-netlify-cms" # the subpath of your site, e.g. /blog/
+url: "https://patsier.com" # the base hostname & protocol for your site - used for feed.xml
+github_username: pjsier
 
-# Build settings
 markdown: kramdown
+
+backend:
+  name: github
+  repo: user/repo
+  branch: master
+  base_url: https://1n1f9h9ame.execute-api.us-east-1.amazonaws.com/dev
