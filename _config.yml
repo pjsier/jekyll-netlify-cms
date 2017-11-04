@@ -13,6 +13,6 @@ markdown: kramdown
 
 backend:
   name: github
-  repo: user/repo
+  repo: pjsier/jekyll-netlify-cms
   branch: master
   base_url: https://1n1f9h9ame.execute-api.us-east-1.amazonaws.com/dev
